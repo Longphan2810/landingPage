@@ -1,0 +1,107 @@
+footer{
+background-image: url(imgsr-20230226T055642Z-001/imgsr/nen2.jpg);
+background-size: cover;
+height: 628px;
+width: 100%;
+position: relative;
+opacity: 1;
+
+}
+footer .item1{
+    position: absolute;
+    background: #3D5936;
+    top: 150px;
+    height: 300px;
+    width: 100%;
+    mix-blend-mode: hard-light;
+    /* z-index: -10; */
+}
+footer .item2{
+  /* background-color: red; */
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    top: 28%;
+    text-align: center;
+    overflow: hidden;
+}
+#title-footer{
+    color: white;
+    text-shadow: initial;
+    font-size: 35px;
+    width: 85%;
+    margin-left: -1%;
+    /* background-color: #3D5936; */
+
+}
+#content-footer{
+
+    color: white;
+    text-shadow: initial;
+    font-size: 20px;
+    width: 85%;
+    margin-left: -1%;
+    margin-top: -6%;
+
+
+}
+footer .item3{
+position: absolute;
+background-color: #3d593696;
+height: 170px;
+width: 100%;
+bottom: 0px;
+display: flex;
+justify-content: space-between;
+}
+.logofooter img{
+    width: 70%;
+    height: 75%;
+    position: absolute;
+}
+.logofooter p{
+    letter-spacing: 5px;
+    margin-left: -2%;
+    position: absolute;
+    bottom: 1px;
+}
+.logofooter{
+    width: 20%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    position: relative;
+    margin-left: 2%;
+
+}
+.thongtinlienlac{
+
+    margin-left: 4%;
+
+}
+.thongtinlienlac p{
+
+font-size: 30px;
+color: aliceblue;
+
+
+}
+
+
+@media screen and (max-width:1075px ){
+    footer .item2{
+        top: 0%;
+
+    }
+    
+ 
+
+
+}
+
+@media screen and (min-width:1440px ){
+    footer{
+        height: 750px;
+    }
+    
+
+}
