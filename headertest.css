@@ -307,34 +307,43 @@ z-index: 999;
         margin-top: 20%;
 
     }
+    .item1 a {
+        text-decoration: none;
+   
+        font-size: 20px;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-weight: bolder;
+        
+    }
 
-    @media screen and (max-width:425px) {
-        .item1 a {
-            text-decoration: none;
-            color: var(--colorNav);
-            font-size: 15px;
+   
+}
+@media screen and (max-width:425px) {
+    .item1 a {
+        text-decoration: none;
+        color: var(--colorNav);
+        font-size: 15px;
 
-        }
+    }
 
-        .item1 li {
-            padding-right: 1%;
-            padding-left: 1%;
+    .item1 li {
+        padding-right: 1%;
+        padding-left: 1%;
 
 
-        }
+    }
 
-        .item2 p {
-            font-size: 50px;
-            width: 100%;
-            margin-top: 23%;
+    .item2 p {
+        font-size: 50px;
+        width: 100%;
+        margin-top: 23%;
 
-        }
+    }
 
-        .item3 img {
-            /* width: 70%; */
-            margin-left: 10%;
-            margin-top: 5%;
+    .item3 img {
+        /* width: 70%; */
+        margin-left: 10%;
+        margin-top: 5%;
 
-        }
     }
 }
